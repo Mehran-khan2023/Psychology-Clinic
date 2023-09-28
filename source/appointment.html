@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Aos library i am using it for animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Aos link ended-->
+    <!--bs5 file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--bs file end-->
+ 
+<!--font family file start mine choice is Dancing script -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<!--font family file end-->
+
+    <!--font aweosome file start-->
+     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--font aweosome file end-->
+
+    <title>Online Psychology Clinic</title>
+</head>
+
+<body>
+
+  
+<header id="Home">
+ 
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white px-3  border-bottom fixed-top" >
+   <div class="container-fluid">
+     <a class="navbar-brand fs-3" href="#"><span class="text-warning">Online</span> <span class="text-danger">Psychology</span> <span class="text-info">Clinic</span></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5   text-center">
+         <li class="nav-item">
+           <a class="nav-link active text-primary border border-success" aria-current="page" href="index.html">Home</a>
+         </li>
+       </ul>
+        
+     </div>
+   </div>
+ </nav>
+
+   </header>
+<!--header   section ended here -->
+
+<!--(((((((((((((((((((((((((((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))))))))))))))))))))))-->
+ 
+<!--contact us section started here-->
+<main>
+<section class="contact" id="Contact"  >
+  <div class="container">
+      <div class="text-center m-5">
+        <hr>
+        <hr>
+
+      </div>
+ 
+      <div class="row">
+        <div class="col-sm-12 col-md-11 col-lg-11 col-12" data-aos="fade-up-right" data-aos-offset="200"> 
+            <h1>Don't be nervous easily <span class="text-primary">Contact us</span></h1>
+         <!--form started here -->
+         <form class="row g-3  m-auto border border-1 border-info p-2">
+ 
+           <div class="col-md-6"> 
+           <label for="inputFirstName" class="form-label">First-Name:</label>
+           <input type="text" class="form-control" id="inputFirstName" placeholder="Mehran">
+           </div>
+ 
+           <div class="col-md-6">  
+             <label for="inputLastName" class="form-label">Last-Name:</label>
+             <input type="text" class="form-control" id="inputLastName" placeholder="Khan">
+             </div>
+ 
+           <div class="col-md-6">
+             <label for="inputEmail4" class="form-label">Email :</label>
+             <input type="email" class="form-control" id="inputEmail4" placeholder="mehran.naz68s@gmail.com">
+           </div>
+          
+           <div class="col-md-6">
+             <label for="inputcontact" class="form-label">Contact-Number:</label>
+             <input type="number" class="form-control" id="inputcontact" placeholder="03439011999">
+           </div>
+           
+            
+     
+           
+           <div class="col-md-4">
+             <label for="inputState" class="form-label">State :</label>
+             <select id="inputState" class="form-select">
+               <option selected>Kpk</option>
+               <option>Sindh</option>
+               <option>Punjab</option>
+               <option>Balochistan</option>
+               <option>Gilgit-baltistan</option>
+             </select>
+           </div>
+           
+           <div class="col-md-4">
+            <label for="inputCity" class="form-label">City :</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Swat">
+          </div>
+      
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">tehisl and village:</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="kabal sirsinai">
+          </div>
+           <!--radio button i am working here for gender section-->
+           
+           <div class="col-12 col-md-12 ">
+   
+              <label >Gender :</label>
+              <label for="inputMale" class="form-label p-3">Male
+                <input type="radio" class="form-radio" name="Gender" id="inputMale">
+              </label>
+              <label for="inputFemale" class="form-label p-3"  >Female
+               <input type="radio" class="form-radio" name="Gender" id="inputFemale"> 
+             </label>
+             <label for="inputother" class="form-label p-3"  >other
+               <input type="radio" class="form-radio" name="Gender" id="inputother">
+             </label>           
+           </div>
+ 
+             
+               
+            
+          
+                  
+                 <div class="col-md-6">
+                        <label for="">Appointment Date</label>
+                   <input type="date" class="form-control" >
+                 </div>
+                 
+                 <div class="col-md-6">
+                        <label for="">Appointment Time: </label>  
+                   <input type="time"   class="form-control">
+                     
+                 </div>
+                 <div class="col-md-12">
+                    <label for="">Reason of Appointment</label>  
+                
+                    <div class="form-floating">
+                   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                      <label for="floatingTextarea">write your issue here</label>
+                     </div>
+                 
+             </div>
+ 
+           
+             <!--working done here for radio  button of gende section-->
+           <div class="col-12 py-3">
+             <button type="submit" class="btn btn-primary">Click to Get Appointment</button>
+           </div>
+  
+         </form>      
+  </div>
+  
+     </div>
+ </div>
+ </section>
+ </main>
+ <!--contact us section ended here-->
+ 
+
+
+
+  
+<!--Footer section start here-->
+ 
+	<div class="container-fluid bg-info p-2   text-center text-white  p-3  mt-5  id=">
+	 
+ 
+    <p> <i class="fa fa-copyright " aria-hidden="true">All @Rights Reserved to Online Psychology Clinic</i></p>
+   </div>
+   <!--footer section ended here-->
+
+<!--javascript files of B-5-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<!--_____________________________________-->
+<!--js file of Aos library used in animations -->
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init();
+</script>
+
+
+<!-- aos ended here-->
+
+</body>
+</html>

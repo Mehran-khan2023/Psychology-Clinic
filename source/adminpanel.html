@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Aos library i am using it for animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Aos link ended-->
+    <!--bs5 file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--bs file end-->
+ 
+<!--font family file start mine choice is Dancing script -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<!--font family file end-->
+
+    <!--font aweosome file start-->
+ 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <!--font aweosome file end-->
+
+    <title>Online Psychology Clinic</title>
+</head>
+
+<body class="bg-right">
+    <div class="container-fluid mt-5">
+
+        <div class="row">
+            <div class="col-md-10 col-lg-11 mx-auto ">
+                <!--breadcrub start-->
+          
+                  <nav aria-label="breadcrumb" class=" bg-info">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="# ">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">User</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Profile settings</li>
+                    </ol>
+                  </nav>
+            </div>
+        <!--braedcrumb end-->
+<!--left side start-->
+        <div class="row">
+            <div class="col-lg-3 col-md-4 d-md-block ">
+                <div class="card bg-common card-left">
+                    <div class="card-body">
+                        <ul class="nav d-md-block d-none">
+                            
+                            <li class="nav-item">
+                                 <nav aria-label="breadcrumb" class="mb-3 bg-inf">
+                               <a data-toggle='tab' class="nav-link active" aria-current="page" href="#profile"><i class="fa fa-user me-1"></i>Profile</a></nav>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a  data-toggle='tab' class="nav-link" href="#account"><i class="fa fa-user-cog me-1"></i>Account Setting</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a  data-toggle='tab' class="nav-link" href="#security"><i class="fa fa-user-shield me-1"></i> Security</a>
+                            </li>
+                           
+                            <li class="nav-item">
+                                <a  data-toggle='tab' class="nav-link" href="#notifications">  <i class="fa fa-bell me-1" aria-hidden="true" ></i>  Notifications</a>
+                              </li>
+
+                            <li class="nav-item">
+                                <a  data-toggle='tab' class="nav-link" href="#billing"> <i class="fas fa-money-bill me-1"></i> Billing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+      
+<!--left side end-->
+
+<!--right side start-->
+
+<div class="col-lg-8  col-md-9">
+  <div class="card">
+    <div class="card-header border-bottom mb-3 d-md-none">
+      <!--tabs start-->
+      <ul class="nav nav-tabs card-header-tabs nav-fill">
+        <li class="nav-item">
+          <a  data-toggle='tab'  class="nav-link active" aria-current="page" href="#profile"><i class="fa fa-user me-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a  data-toggle='tab'  class="nav-link" href="#account"><i class="fa fa-user-cog me-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a  data-toggle='tab'  class="nav-link" href="#security"><i class="fa fa-user-shield me-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a  data-toggle='tab'  class="nav-link" href="#notifications"><i class="fa fa-bell me-1" aria-hidden="true" ></i> </a>
+        </li>
+        <li class="nav-item">
+          <a  data-toggle='tab'  class="nav-link" href="#billing"><i class="fas fa-money-bill me-1"></i> </a>
+        </li>
+       
+      </ul>
+      <!--tabs end-->
+              </div>
+                   <!--profile and other data section start-->
+                   <div class="tab-content" id="myTabContent">
+                <!--profile start-->
+                <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab"><h1>this is profile tab</h1></div>
+                <!--profile end-->
+
+                 <!--account start--> 
+                 <div class="tab-pane fade" id="account" role="tabpanel" aria-labelledby="notifications-tab"><h2>this is notifications</h2></div>
+                <!--account end-->
+
+                 <!--security start-->
+                 <div class="tab-pane" id="security">
+                  <h1>security</h1>
+                </div>
+                <!--security end-->
+
+                 <!--notifications start-->
+                 <div class="tab-pane" id="notifications">
+                  <h1>notify me</h1>
+                </div>
+                <!--notifications end-->
+
+                 <!--billing start-->
+                 <div class="tab-pane" id="billing">
+                  <h1>account</h1>
+                </div>
+                <!--billing end-->
+
+              </div>
+                   <!--profiles and other ended-->
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+ 
+    <!--javascript files of B-5-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<!--_____________________________________-->
+</body>
+</html>

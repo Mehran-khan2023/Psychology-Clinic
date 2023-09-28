@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Aos library i am using it for animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Aos link ended-->
+    <!--bs5 file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--bs file end-->
+ 
+<!--font family file start mine choice is Dancing script -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<!--font family file end-->
+
+    <!--font aweosome file start-->
+     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--font aweosome file end-->
+
+    <title>Online Psychology Clinic</title>
+</head>
+
+<body>
+ 
+<header id="Home">
+   <!--navabar section startin from here -->
+
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-white px-4  border-bottom fixed-top" >
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3" href="#"><span class="text-warning">Online</span> <span class="text-danger">Psychology</span> <span class="text-info">Clinic</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5   text-center">
+          <li class="nav-item">
+            <a class="nav-link active text-primary" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#Services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#Services">Services</a></li>
+              <li><a class="dropdown-item" href="#Services">1: Students</a></li>
+              <li><a class="dropdown-item" href="#Services">2: Elderss</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#Consultants">Our Consultants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact us</a>
+          </li>
+
+        </ul>
+         
+      </div>
+    </div>
+  </nav>
+
+  <!--navar section ended here -->
+
+  <!--carousole section start here-->
+  <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="2000" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"   data-interval="1000" >
+        <img src="../images/img1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome To Online-psychology-clinic</h5>
+          <p>we are providing a special platform for you.</p>
+        </div>
+      </div>
+      <div class="carousel-item"   data-interval="2000" > 
+         
+        <img src="../images/img3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Meet Expert Psychologist here</h5>
+          <p>So on this platform you can easily find solution of your problems </p>
+        </div>
+      </div>
+      <div class="carousel-item"   data-interval="3000"  >
+        <img src="../images/img2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Experience Doctors</h5>
+          <p>Easily explain your issue with doctors to find better solution</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ 
+    <!--carousole section ended here-->
+    </header>
+<!--header   section ended here -->
+
+<!--(((((((((((((((((((((((((((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))))))))))))))))))))))-->
+
+<!--About section start from here-->
+    <section class="about my-5" id="About">
+        <div class="container text-center my-5">
+            <h1  data-aos="fade-up" data-aos-offset="200">About<span class="text-primary">us</span></h1>
+            <hr  class="w-25 m-auto" />
+        </div>
+        <div class="row ">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12  " data-aos="zoom-in-right" data-aos-offset="200">
+                <h1 class="px-5 ">Lets<span class="text-primary"> know</span>about<span class="text-warning"> our platform</span> </h1>
+                <p class="px-4">
+                  Our mission is to help people and aware them about such mental illness via experts. We are going to give them platform to present their issues with doctors and to overcome all of them.
+                  We will connect you with a professional, licensed and vetted therapist in an online, private session room. You can message your counselor anytime, and you can also schedule a weekly phone, video, or live chat session with your counslers.<br>
+                  <strong>Click on read more for further benefits of yours being visiting our website</strong>
+                </p>
+                
+                <a href="about us.html" class="btn-more m-5 px-5">Read more</a>
+                  
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto  text-end" data-aos="fade-right" data-aos-offset="200">
+                <img src="../images/about-us.jpg" alt="image" class="img-fluid img-thumbnail" id="img-about">
+                
+               
+       
+            </div>
+        </div>
+    </section>
+    <!--About section ended here-->
+    
+  <!--<><><><><><><>><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><<><><><<<<<><>-->
+
+    <!--Our services section start here -->
+    <section class="our services py-5 bg-light" id="Services" >
+        <div class="container text-center my-5"  >
+            <h1  data-aos="fade-up"  data-aos-anchor-placement="center-bottom" data-aos-offset="200">Our <span class="text-primary">Services</span></h1>
+            <hr  class="w-25 m-auto" /> 
+        </div>
+            <div class="row my-5" data-aos="pade-up-left" data-aos-offset="200">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="zoom-in-right" data-aos-offset="200">
+                <!--card 1 section start here-->
+                <div class="card"  >
+                    <div class="card-body">
+                        <i class="fa fa-twitter p-2  mb-2 bg-primary text-white rounded"></i>
+                      <h5 class="card-title">Student development issue</h5>
+                      <p class="card-text">Some quick example text to build on the card title kdkkdaklmdlkansdlalasnlknlknlaknlk</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  </div>
+                 <!--card 1 section ended here-->
+            
+            <!--card 2 section start here-->
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-in-left" data-aos-offset="300">
+              
+                <div class="card" >
+                
+                    <div class="card-body">
+                        <i class="fa fa-facebook  p-2  mb-2 bg-primary text-white rounded"></i>
+                      <h5 class="card-title">Career consoling </h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  </div>
+                 <!--card 2 section ended here-->
+                 
+             <!--card 3 section start here-->
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="zoom-in-down" data-aos-offset="400">
+                
+                <div class="card"  >
+                    <div class="card-body">
+                    <i class="fa fa-instagram p-2  mb-2 bg-primary text-white rounded"></i>
+                      <h5 class="card-title"> Physical and mental fitness </h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                 </div> 
+                 </div>
+                 <!--card 3 section ended here-->
+       
+
+                 <div class="row mt-5" data-aos="zoom-in-down" data-aos-offset="200">
+                   <!--card 4 section start here-->
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12" >
+                         
+                        <div class="card"  >
+                            <div class="card-body">
+                                <i class="fa fa-youtube p-2  mb-2 bg-primary text-white rounded"></i>
+                              <h5 class="card-title">Stress</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          </div>
+                         <!--card 4 section ended here-->
+                    
+                    <!--card  5 section started-->
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-in-down" data-aos-offset="300">
+                       
+                        <div class="card" >
+                             
+                            <div class="card-body">
+                                <i class="fa fa-eyedropper  p-2  mb-2 bg-primary text-white rounded"></i>
+                              <h5 class="card-title">Anxiety</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                         
+                    </div>
+                                            <!--card  section ended-->
+                    <!--card 3 started -->
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="zoom-in-up" data-aos-offset="400">
+                  
+                      <div class="card" >
+                           
+                          <div class="card-body">
+                              <i class="  fa fa-heart    p-2  mb-2 bg-primary text-white rounded"></i>
+                            <h5 class="card-title">Kids Training</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      
+                  </div>
+                    <!--card 3 ended-->
+                  
+        </div>
+            
+
+        </section>
+    <!--Our services section ended here -->
+
+<!--****************************************************************************************************************************-->
+    
+<!--Our consultants section started here -->
+<section class="our Consultants py-5 bg-light" id="Consultants" >
+  
+      <div class="container text-center my-5" data-aos="fade-up" data-aos-offset="200">
+          <h1>Our <span class="text-primary">Consultants</span></h1>
+          <hr  class="w-25 m-auto" />
+
+          <div class="row my-5" data-aos="zoom-in-right" data-aos-offset="200">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <!--card 1 section start here-->
+              <div class="card"  >
+                  <div class="card-body">
+                    <img src="../images/dr-manga.jpeg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                    <h5 class="card-title mt-4">Dr-Mangna Porterfield</h5>
+                    <p class="card-text"><h4>Phd</h4>  <strong> specialities</strong>: Stress, Anxiety, grief, depression, coping with life changes</p>
+                    <a href="con1.html" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+               <!--card 1 section ended here-->
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="zoom-in-left" data-aos-offset="300">
+              <!--card 2 section start here-->
+              <div class="card" >
+              
+                  <div class="card-body">
+                    <img src="../images/abbas.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                    <h5 class="card-title mt-4">Mr Abbass Wahab</h5>
+                    <p class="card-text"> <h4>Master from Nust</h4> <strong>CEO</strong> and Founder of Institute of Skills Development. hence better for you to guide you for right path</p>
+                    <a href="con2.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+               <!--card 2 section ended here-->
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="zoom-in-right" data-aos-offset="400">
+              <!--card 3 section start here-->
+              <div class="card"  >
+                  <div class="card-body">
+                    <img src="../images/dr-jelia.jpeg" class="img-fluid rounded-circle border border-primary p-2" alt=""> 
+                    <h5 class="card-title mt-4">Dr-Janelle Natal</h5>
+                    <p class="card-text"> <h4>LCSW</h4> <B>Specialties</B>Stress, Anxiety, family conflicts, trauma and abuse, bipolar disorder, depression</p>
+                    <a href="con3.html" class="btn btn-primary">Read More</a>
+                </div>
+               </div> 
+               <!--card 3 section ended here-->
+     
+               
+          </div>
+</div>
+</div>
+      </section>
+                <!--Our consultants section ended here -->
+
+  <!--###########################################################################################################-->
+
+<!--contact us section started here-->
+<section class="contact" id="Contact"  >
+   <div class="container">
+     <div class="text-center my-5">
+      <h1>Don't be nervous easily <span class="text-primary">Contact us</span></h1>
+     </div>
+
+     <div class="row">
+       <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up-right" data-aos-offset="200"> 
+
+        <!--form started here -->
+        <form class="row g-3  m-auto border border-1 border-info p-2">
+
+          <div class="col-md-6"> 
+          <label for="inputFirstName" class="form-label">First-Name:</label>
+          <input type="text" class="form-control" id="inputFirstName" placeholder="Mehran">
+          </div>
+
+          <div class="col-md-6">  
+            <label for="inputLastName" class="form-label">Last-Name:</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="Khan">
+            </div>
+
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email :</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="mehran.naz68s@gmail.com">
+          </div>
+         
+          <div class="col-md-6">
+            <label for="inputcontact" class="form-label">Contact-Number:</label>
+            <input type="number" class="form-control" id="inputcontact" placeholder="03439011999">
+          </div>
+          
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address :</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Moh : Behrooz khan village : sirsinai teh:Kabal">
+          </div>
+           
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City :</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Swat">
+          </div>
+          
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State :</label>
+            <select id="inputState" class="form-select">
+              <option selected>Kpk</option>
+              <option>Sindh</option>
+              <option>Punjab</option>
+              <option>Balochistan</option>
+              <option>Gilgit-baltistan</option>
+            </select>
+          </div>
+          
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip :</label>
+            <input type="text" placeholder="19060" class="form-control" id="inputZip">
+          </div>
+          <!--radio button i am working here for gender section-->
+          
+          <div class="col-12 col-md-12 ">
+  
+             <label >Gender :</label>
+             <label for="inputMale" class="form-label p-3">Male
+               <input type="radio" class="form-radio" name="Gender" id="inputMale">
+             </label>
+             <label for="inputFemale" class="form-label p-3"  >Female
+              <input type="radio" class="form-radio" name="Gender" id="inputFemale"> 
+            </label>
+            <label for="inputother" class="form-label p-3"  >other
+              <input type="radio" class="form-radio" name="Gender" id="inputother">
+            </label>           
+          </div>
+
+            
+             <div class="col-md-6">
+              <label for="inputMaritalStatus" class="form-label">Marital Status :</label>
+              <select id="inputMaritalStatus" class="form-select">
+                <option selected>Single</option>
+                <option>Engaged</option>
+                <option>Married</option>
+              </select>
+            </div>
+
+           
+                <div class="col-md-6">
+                  <label for="inputEmployment" class="form-label">Employment :</label>
+                  <select id="inputEmployment" class="form-select">
+                    <option selected>Student</option>
+                    <option>Self Employee</option>
+                    <option>Government Employee</option>
+                    <option>None</option>
+                    
+                  </select>
+                </div>
+                 
+                <div class="col-md-6">
+                       <label for="">Appointment Date</label>
+                  <input type="date" class="form-control" >
+                </div>
+                
+                <div class="col-md-6">
+                       <label for="">Appointment Time: </label>  
+                  <input type="time"   class="form-control">
+                    
+                </div>
+
+                <div class="col-md-6">
+                  <label for="inputPackage" class="form-label">Enter the Package you choose :</label>
+                  <select id="inputPackage" class="form-select">
+                    <option selected>Basic</option>
+                    <option>Student</option>
+                    <option>International</option>
+                
+                    
+                  </select>
+                  </div>
+            <!--working done here for radio  button of gende section-->
+          <div class="col-12 py-3">
+            <button type="submit" class="btn btn-primary">Click to Get Appointment</button>
+          </div>
+ 
+        </form>      
+ </div>
+
+       <div class="col-sm-12 col-md-6 col-lg-6 col-12   text-end  px-5 m-auto " data-aos="fade-up-left" data-aos-offset="200"> 
+          <img src="../images/contact.jpg" class="img-fluid img-thumbnail " alt="">
+      </div>
+
+    </div>
+</div>
+</section>
+<!--contact us section ended here-->
+
+
+<!--Footer section start here-->
+ 
+	<div class="container-fluid bg-info p-2   text-center text-white  p-3  mt-5  id=">
+	 
+ 
+       <p> <i class="fa fa-copyright " aria-hidden="true">All @Rights Reserved to Online Psychology Clinic</i></p>
+			</div>
+      <!--footer section ended here-->
+
+<!--javascript files of B-5-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<!--_____________________________________-->
+<!--js file of Aos library used in animations -->
+ 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+ 
+<!-- aos ended here-->
+ 
+</body>
+</html>
